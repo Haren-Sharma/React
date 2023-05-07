@@ -7,18 +7,25 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root">
+      <!-- 
+      this will be done by react
+      <div id="container">
+      <h2>Haren</h2>
+      <h2>Sharma</h2>
+      </div> 
+      -->
+    </div>
   </body>
-
-  <!-- <script>
-    
+  <!-- 
+    <script>
     Using Js
-
     const heading=document.createElement('h1');
     heading.innerHTML='Haren Sharma'
     const root=document.getElementById('root')
     root.appendChild(heading)
-  </script> -->
+    </script> 
+    -->
   <script
     crossorigin
     src="https://unpkg.com/react@18/umd/react.development.js"
@@ -28,11 +35,22 @@
     src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
   ></script>
   <script>
-    const heading=React.createElement('h1',{},"Haren Sharma")
-    console.log(heading)
-    const root=ReactDOM.createRoot(document.getElementById('root'))
-    console.log(root
-    )
-    root.render(heading)
+    const heading1 = React.createElement("h2", {key:"Haren"}, "Haren");
+    const heading2 = React.createElement("h2", {key:"Sharma"}, "Sharma");
+    const container = React.createElement(
+      "div",
+      {
+        id: "container",
+        style:{
+          backgroundColor:'yellow'
+        }
+      },
+      [heading1, heading2]
+    );
+    //1st arg is the type of element
+    //2nd arg is the props
+    //3rd arg is the children
+    const root = ReactDOM.createRoot(document.getElementById("root"));
+    root.render(container);
   </script>
 </html>

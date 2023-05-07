@@ -1,5 +1,5 @@
 Q:What is Emmet?
-Sol:Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow
+Sol:Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow.Ctrl+space
 
 For e.g:-
 
@@ -55,6 +55,7 @@ Difference:
 
 
 Q:What is CDN? Why do we use it?
+Q:What are arrow functions?
 Q:Why is React known as React?
 Q:What is crossorigin in script tag?
 Q:What is diference between React and ReactDOM
