@@ -1,0 +1,50 @@
+Q:What is Emmet?
+Sol:Emmet is a plug in for many popular text editors which greatly improves HTML & CSS workflow
+
+For e.g:-
+
+Div with txt inside:
+div{This is a div}
+=><div>This is a div</div>
+
+Nested elements:
+ul>li
+=><ul><li></li></ul>
+
+Classes and ids:
+div#main.container.responsive
+<div id="main" class="container responsive"></div>
+You can specify multiple classes but do remember that you can have only one id. If you specify two id’s using #, the 2nd id will override the first.
+
+Ref:https://medium.com/@kartik2406/web-development-with-vs-code-part-1-emmet-6af80f0f630c
+
+Q:Difference between a Library and Framework?
+Sol:Library is like building your home from the ground up. The house can be made in any style you prefer and the rooms can be arranged and decorated however you like. Framework, on the other hand, is like buying a new home. The house is already built, so you don’t have to worry about building problems, but you can’t choose how the rooms are arranged.
+
+Imp Of Framework:
+Software frameworks make development easier by providing a common platform from which developers can control all or most of the software development process. 
+
+Imp of Library:
+ to reuse the code that has already been written by someone else (or another developer). Developers can avoid writing code for functionality that is already written in the library by using it.
+
+Difference:
+ By using a library, you control the flow of the program. The library can be invoked whenever and wherever you like. Contrary to this, when you use a framework, the flow is controlled by the framework. The framework instructs you where to put your code, but it will call your code as required. Simply put, our code calls the library’s code, but in a framework, it’s the framework’s code that calls our code as shown in the below diagram.
+
+ libraries are a collection of helper modules, objects, classes, functions, message templates, pre-written code, etc.Frameworks consist of a lot of APIs, compilers, toolsets, support programs, libraries, etc.
+
+ Libraries are not extensible ,they are designed to accomplish a specific purpose whereas Frameworks provide general functionality beacuse of which they are built to be extensible
+
+ Performance is better in case of libraries as they contain less code.  
+
+ Integration of libraries into an existing project is very easy whereas it is impossible to integrate a framework,frameworks should be used when starting a new project.
+
+ Libraries:JQuery, React JS, etc.
+ Frameworks:Spring, NodeJS, AngularJS, Vue JS, etc
+
+
+Q:What is CDN? Why do we use it?
+Q:Why is React known as React?
+Q:What is crossorigin in script tag?
+Q:What is diference between React and ReactDOM
+Q:What is difference between react.development.js and react.production.js files via CDN?
+Q:What is async and defer? 
