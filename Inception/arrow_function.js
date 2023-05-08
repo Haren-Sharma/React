@@ -1,4 +1,6 @@
-//Arrow functions do not have their own this binding. Instead, this is lexically scoped, meaning that it refers to the this value of the enclosing lexical context.
+//Arrow functions do not have their own "this" binding. 
+//Instead, this is lexically scoped, meaning that it refers 
+//to the this value of the enclosing lexical context.
 const person={
     name:'Haren Sharma',
     age:23,
