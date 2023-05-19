@@ -12,7 +12,7 @@ const person={
         arrow_fun();
     },
     arrow_fun2:()=>{
-        console.log(`And I am ${this.age} years old`);
+        console.log(`And I am ${this.age} years Old`);
     }
 }
 person.regular_fun();
